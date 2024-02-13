@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(238, 73, 100);
+    max-width: 1488px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+ol {
+    display: flex;
+}
+
+.titre {
+    background-color: white;
+}
+
+h1 {
+    color: rgb(238, 73, 100);
+}
+
+p {
+    color: black;
+    margin: 10px;
+}
+
+.menu-btn {
+    margin: 10px;
+}
+
+.sabonner {
+     margin: 10px;
+     margin-left: auto;
+}
+
+#bouton {
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 0px 50px;
+    border: none;
+}
+ li #survol:hover {
+    filter: grayscale(100%);
+}
