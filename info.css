@@ -67,3 +67,28 @@ li.survol {
 #liseret {
     height: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    nav p {
+        text-align: center;
+    }
+
+    span {
+        display: none;
+    }
+
+    .sabonner {
+        display: none;
+    }
+
+    li.survol {
+        width: 100%;
+    
+    }
+}
