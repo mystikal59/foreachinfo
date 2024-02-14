@@ -11,6 +11,7 @@ header {
 ul {
     display: flex;
     justify-content: space-around;
+    padding: 0;
 }
 
 li {
@@ -50,6 +51,19 @@ p {
     margin: 0px 50px;
     border: none;
 }
- li #survol:hover {
-    filter: grayscale(100%);
+
+#bouton:hover {
+    filter: brightness(5px);
+    background-color: rgb(178, 176, 176);
+}
+
+li.survol {
+    width: 33.3%;
+
+}
+ li.survol:hover {
+    background-color: brown;
+    }
+#liseret {
+    height: 5px;
 }
