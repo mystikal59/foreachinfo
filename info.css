@@ -30,6 +30,9 @@ ol {
 h1 {
     color: rgb(238, 73, 100);
 }
+ nav p {
+    text-align: center;
+  }
 
 p {
     color: black;
@@ -75,10 +78,6 @@ li.survol {
         flex-wrap: wrap; 
     }
 
-    nav p {
-        text-align: center;
-    }
-
     span {
         display: none;
     }
@@ -92,3 +91,36 @@ li.survol {
     
     }
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(237, 235, 235);
+    margin: 10px 50px;
+  }
+  
+  .cell {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 20px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .cell p {
+    overflow: hidden;
+  }
+  img {
+    width: 150px;
+    height: 200px;
+  }
+  
+ 
+  h2 {
+    color: rgb(238, 73, 100);
+    margin: 20px 50px 0px;
+    font-weight: bold;
+  }
