@@ -67,6 +67,11 @@ li.survol {
  li.survol:hover {
     background-color: brown;
     }
+
+li p {
+    color: white;
+}
+
 #liseret {
     height: 5px;
 }
@@ -134,3 +139,21 @@ li.survol {
     }
 
 }
+
+footer {
+    background-color: rgb(238, 73, 100);
+    padding: 10px 0;
+    margin: 30px 0px 0px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+  }
