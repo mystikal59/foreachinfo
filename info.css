@@ -157,3 +157,9 @@ footer {
     color: white;
     margin: 0 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+  }
